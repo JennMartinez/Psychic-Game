@@ -32,7 +32,7 @@ if (compGuess == userGuess) {
     console.log("Computer Guess: " + compGuess);
 }
 
-// The counter reaches 0, and the game should reset itself. The counter does not reset once the user reaches 9 losses. 
+// The counter reaches 0, and the game should reset itself. The counter does not reset once the user reaches 9 losses. This is something I need guidance on. //
 if (guessesLeft == 0) {
     losses++;
     guessesLeft = 9;
