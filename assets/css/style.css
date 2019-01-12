@@ -4,8 +4,13 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h2 {
-    
+h1 {
+    font-family: 'Share Tech', sans-serif;
+    margin-bottom: 35px;
+}
+
+h3 {
+
 }
 
 #wins {
