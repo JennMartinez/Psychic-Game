@@ -21,6 +21,7 @@ console.log("userguess", userGuess);
 if (guessesSoFar.indexOf(userGuess) <= 0 && allLetters.indexOf(userGuess) >= 0) {
 	guessesSoFar[guessesSoFar.length]=userGuess;
     guessesLeft--;
+    console.log("Guesses Remaining" + guessesLeft);
 }
 
 // USER guess and COMPUTER guess are the same //
@@ -39,6 +40,7 @@ if (guessesLeft == 0) {
     guessesSoFar = [];
     compGuess = allLetters[Math.floor(Math.random() * allLetters.length)]; 
     console.log("Computer Guess: " + compGuess);
+    console.log("Guesses Left: " + guessesLeft);
 }
 
 // Display stats in browser //
@@ -48,6 +50,6 @@ var html =
     "<p>Guesses Left: " + guessesLeft + "</p>" +
     "<p>Guesses So Far: " + guessesSoFar + "</p>"; 
 
-document.getElementById("psychic game").innerHTML = html;
+document.getElementById("psychic").innerHTML = html;
 
 }
