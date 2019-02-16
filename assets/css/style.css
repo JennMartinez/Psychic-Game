@@ -1,33 +1,21 @@
 body {
-    background-image: url("../images/tech_brain.png");
+    background-image: url("../images/braintechie.jpg");
     color: rgb(231, 119, 14);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* color: rgb(27, 201, 27); */
 }
 
-h1 {
+#title {
     font-family: 'Share Tech', sans-serif;
-    margin-bottom: 35px;
+    font-size: 59px;
+    margin-left: 10px;
 }
 
-h3 {
+#psychic {
+    margin-left: 10px;
+    font-family: 'Share Tech', sans-serif;
+    font-size: 27px;
+    margin-top: 130px;
 
 }
-
-#wins {
-    
-}
-
-#losses {
-
-}
-
-#guessLeft {
-
-}
-
-#guessesSoFar {
-
-}
-
 
 
