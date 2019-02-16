@@ -2,6 +2,8 @@
 
 Game Instructions
 
+https://jennmartinez.github.io/Psychic-Game/
+
 - The user chooses a random letter on the keyboard from a-z.
 
 - The computer will choose a random letter from a-z.
